@@ -1,4 +1,5 @@
 import Nav from "../Components/Nav";
+import RenderParticlesBackground from "../Components/RenderParticlesBackground";
 import "./Layout.css"
 
 export default function Layout(props) {
@@ -10,6 +11,7 @@ export default function Layout(props) {
       <div className="layout-children">
         {props.children}
       </div>
+        <RenderParticlesBackground />
     </div>
   )
 }

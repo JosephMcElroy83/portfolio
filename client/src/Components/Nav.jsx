@@ -4,10 +4,10 @@ import "./Nav.css"
 export default function Nav() {
   return (
     <div className="links-nav">
-      <Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+      <Link className="link" to="/">Home</Link>
+      <Link className="link" to="/projects">Projects</Link>
+      <Link className="link" to="/about">About</Link>
+      <Link className="link" to="/contact">Contact</Link>
     </div>
   )
 }

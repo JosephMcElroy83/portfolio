@@ -51,9 +51,9 @@ export default function RenderParticlesBackground(props) {
               blink: false,
               color: "random",
               consent: false,
-              distance: 70,
+              distance: 100,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.4,
               width: 4
             },
             move: {
@@ -105,7 +105,7 @@ export default function RenderParticlesBackground(props) {
             }
           },
           polygon: {
-            enable: true,
+            enable: false,
             draw: {
               enable: false,
               lineColor: "rgba(255,255,255,0.2)",

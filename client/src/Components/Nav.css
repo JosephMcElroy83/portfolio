@@ -1,0 +1,21 @@
+.links-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.link {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  height: 30px;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.link:hover {
+  box-shadow: 1px 1px 1px black;
+  transform: scale(1.03);
+}

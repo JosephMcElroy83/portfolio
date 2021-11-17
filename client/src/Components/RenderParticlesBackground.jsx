@@ -19,106 +19,136 @@ export default function RenderParticlesBackground(props) {
         options={{
           detectRetina: false,
           fpsLimit: 60,
-          interactivity: {
-            detectsOn: "canvas",
-            events: {
-              onHover: {
-                enable: true,
-                mode: "bubble"
-              },
-              resize: true
-            },
-            modes: {
-              bubble: {
-                distance: 40,
-                duration: 2,
-                opacity: 8,
-                size: 6,
-                speed: 3
-              }
-            }
-          },
           particles: {
+            number: {
+              max: 140,
+              value: 5,
+              density: {
+                enable: true,
+                value_area: 100
+              }
+            },
             color: {
               value: "#ff0000",
               animation: {
                 enable: true,
-                speed: 20,
+                speed: 10,
                 sync: true
               }
             },
-            lineLinked: {
-              blink: false,
-              color: "random",
-              consent: false,
-              distance: 100,
-              enable: true,
-              opacity: 0.4,
-              width: 4
-            },
-            move: {
-              attract: {
-                enable: false,
-                rotate: {
-                  x: 600,
-                  y: 1200
-                }
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 10,
+                color: "#000000"
               },
-              bounce: false,
-              direction: "none",
-              enable: true,
-              outMode: "bounce",
-              random: true,
-              speed: 0.5,
-              straight: false
-            },
-            number: {
-              density: {
-                enable: false,
-                area: 2000
+              polygon: {
+                nb_sides: 5
               },
-              limit: 0,
-              value: 200
+              image: {
+                src: "https://cdn.pixabay.com/photo/2015/04/28/21/20/halftone-744404_960_720.png",
+                width: 100,
+                height: 100
+              }
             },
             opacity: {
-              animation: {
-                enable: true,
-                minimumValue: 0.05,
-                speed: 1,
-                sync: false
-              },
+              value: 0.3,
               random: false,
-              value: 2
-            },
-            shape: {
-              type: "circle"
+              anim: {
+                enable: false,
+                speed: 3,
+                opacity_min: 0.1,
+                sync: false
+              }
             },
             size: {
-              animation: {
-                enable: false,
-                minimumValue: 0.1,
-                speed: 20,
-                sync: false
+              value: 200,
+              random: {
+                enable: true,
+                minimumValue: 50
               },
-              random: true,
-              value: 10
-            }
-          },
-          polygon: {
-            enable: false,
-            draw: {
-              enable: false,
-              lineColor: "rgba(255,255,255,0.2)",
-              lineWidth: 1
+              animation: {
+                enable: true,
+                speed: 1,
+                minimumValue: 100,
+                sync: true,
+                startValue: "min",
+                destroy: "max"
+              }
+            },
+            links: {
+              enable: false
             },
             move: {
-              radius: 8
-            },
-            inlineArrangement: "equidistant",
-            scale: 0.23,
-            type: "inline",
-            url: "https://res.cloudinary.com/jm83/image/upload/v1636843654/zsderghljsdrglserg_lttriv.svg"
+              enable: true,
+              speed: 6,
+              direction: "none",
+              random: false,
+              straight: false,
+              outMode: "destroy",
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200
+              }
+            }
           },
+          interactivity: {
+            detectsOn: "window",
+            events: {
+              onhover: {
+                enable: true,
+                mode: "trail"
+              },
+              onclick: {
+                enable: true,
+                mode: "push"
+              },
+              resize: true
+            },
+            modes: {
+              grab: {
+                distance: 400,
+                line_linked: {
+                  opacity: 1
+                }
+              },
+              bubble: {
+                distance: 400,
+                size: 10,
+                duration: 6,
+                opacity: 0.5,
+                speed: 3
+              },
+              repulse: {
+                distance: 300
+              },
+              push: {
+                particles_nb: 15
+              },
+              remove: {
+                particles_nb: 3
+              },
+              trail: {
+                delay: 5,
+                quantity: 10
+              }
+            }
+          },
+          retina_detect: true,
+          background: {
+            color: "#000000",
+            image: "url('https://res.cloudinary.com/jm83/image/upload/c_scale,w_2440/v1636749336/artificial-intelligence-4389372_zxau8x.jpg')",
+            position: "50% 50%",
+            repeat: "no-repeat",
+            size: "fit"
+          },
+          backgroundMask: {
+            enable: true,
+            cover: {
+              color: "#000000"
+            }
+          }
         }}
         />
     </div>

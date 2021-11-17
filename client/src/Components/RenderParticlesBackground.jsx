@@ -21,7 +21,7 @@ export default function RenderParticlesBackground(props) {
           fpsLimit: 60,
           particles: {
             number: {
-              max: 140,
+              max: 200,
               value: 5,
               density: {
                 enable: true,

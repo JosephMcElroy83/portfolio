@@ -1,3 +1,4 @@
+import RenderParticlesBackground from "../Components/RenderParticlesBackground"
 import Layout from "../Layout/Layout"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           </div>
         </a>
       </div>
+      <RenderParticlesBackground />
     </Layout>
   )
 }

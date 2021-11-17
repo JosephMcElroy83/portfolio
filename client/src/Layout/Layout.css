@@ -33,7 +33,6 @@
   flex-direction: column;
   margin: 140px auto;
   width: 50vw;
-  height: 65s0px;
   text-align: center;
   border: 1px solid black;
   padding: 15px;
@@ -73,7 +72,6 @@
   width: 97.5vw;
   text-align: center;
   justify-content: space-around;
-  z-index: 2;
 }
 
 .project-card {
@@ -85,14 +83,12 @@
   width: 21vw;
   text-align: center;
   align-self: center;
-  z-index: 2;
   background-color: rgb(238, 238, 238);
 }
 
 .card-link {
   text-decoration: none;
   color: black;
-  z-index: 2;
 }
 
 .deployed-links {
@@ -102,13 +98,12 @@
   justify-content: center;
   color: black;
   font-size: 1.2em;
-  z-index: 2;
+
 }
 
 .card-image {
   width: 20vw;
   align-self: center;
-  z-index: 2;
 }
 
 .title-text, .title {

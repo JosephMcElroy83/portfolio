@@ -32,7 +32,7 @@ export default function RenderParticlesBackground(props) {
               value: "#ff0000",
               animation: {
                 enable: true,
-                speed: 10,
+                speed: 6,
                 sync: true
               }
             },
@@ -62,7 +62,7 @@ export default function RenderParticlesBackground(props) {
               }
             },
             size: {
-              value: 200,
+              value: 300,
               random: {
                 enable: true,
                 minimumValue: 50
@@ -81,7 +81,7 @@ export default function RenderParticlesBackground(props) {
             },
             move: {
               enable: true,
-              speed: 6,
+              speed: 4,
               direction: "none",
               random: false,
               straight: false,
@@ -131,7 +131,7 @@ export default function RenderParticlesBackground(props) {
               },
               trail: {
                 delay: 5,
-                quantity: 10
+                quantity: 25
               }
             }
           },

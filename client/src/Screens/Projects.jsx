@@ -1,4 +1,5 @@
 import Layout from "../Layout/Layout"
+import "./Projects.css"
 
 export default function Projects() {
   return (
@@ -12,6 +13,8 @@ export default function Projects() {
             <li>Vanilla HTML, CSS, JavaScript</li>
             <li>Axios</li>
             <li>External API</li>
+            <li><br /></li>
+            <li><br /></li>
             <li><br /></li>
             <li><br /></li>
             <li><br /></li>
@@ -31,6 +34,8 @@ export default function Projects() {
             <li>AirTable API Backend</li>
             <li>Tableau API</li>
             <li>Vanilla CSS</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
             <li><br /></li>
             <li><br /></li>
           </ul>
@@ -48,6 +53,8 @@ export default function Projects() {
             <li>MongoDB Document Database</li>
             <li>Authentication/Authorization</li>
             <li>Morgan Logger</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
             <li><br /></li>
           </ul>
           <p className="deployed-text"><a className="deployed-links" href="https://sevenwanders.netlify.app/" target="_blank" rel="noreferrer" >Deployed Link</a></p>
@@ -65,6 +72,8 @@ export default function Projects() {
             <li>Authentication/Authorization</li>
             <li>Bcrypt Hashing</li>
             <li>JSON webtokens</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
           </ul>
           <p className="deployed-text"><a className="deployed-links" href="https://opti-market.netlify.app" target="_blank" rel="noreferrer" >Deployed Link</a></p>
         </div>

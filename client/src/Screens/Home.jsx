@@ -1,5 +1,6 @@
 import RenderParticlesBackground from "../Components/RenderParticlesBackground"
 import Layout from "../Layout/Layout"
+import "./Home.css"
 
 export default function Home() {
   return (

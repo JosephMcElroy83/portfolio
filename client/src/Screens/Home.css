@@ -1,0 +1,38 @@
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  margin: 140px auto;
+  width: 50vw;
+  text-align: center;
+  padding: 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 1.5em;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.home-screen:hover {
+  background-color: whitesmoke;
+  box-shadow:
+      0 0 3px rgb(165, 165, 165),
+      0 0 10px rgb(130, 130, 130),
+      0 0 15px rgb(96, 96, 96),
+      0 0 24px rgb(72, 72, 72),
+      0 0 32px rgb(58, 58, 58),
+      0 0 43px rgb(38, 38, 38)
+}
+
+.featured-text {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 3em;
+}
+
+.link-seven {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8em;
+}

@@ -8,7 +8,7 @@ export default function About() {
         <div className="branding">
           <img className="branding-img" src="https://cdn.pixabay.com/photo/2021/08/21/12/08/impossible-6562613_960_720.jpg" alt="branding motivation" />
           <h2 className="branding-header">Making the Impossible the Possible</h2>
-          <p className="branding-text">From the ground up approach, the only way to success is making the problem yours and engineering data driven solutions. Allowing creative solutions fuse with innovate new technologies to present probable instead of improbable results</p>
+          <p className="branding-text">Prior military software engineer with a background in data science. I am team oriented, strong communicator, and optimistic for solutions. Rewriting impossible to possible with engineering solutions through research and from the ground up approach to build for the unknowns.</p>
         </div>
         <div className="techstack">
           <h2 className="techstack-header">Tech Skillset</h2>

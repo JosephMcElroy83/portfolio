@@ -31,6 +31,7 @@
   background-color: rgb(240, 240, 240);
   color: black;
   padding: 10px;
+  border-radius: 2em;
 }
 
 .branding-header {
@@ -48,6 +49,7 @@
   background-color: whitesmoke;
   color: black;
   padding: 10px;
+  border-radius: 2em;
 }
 
 .tech-image-container {

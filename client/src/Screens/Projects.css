@@ -12,17 +12,20 @@
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  padding: 5px;
+  padding: 8px;
   height: 100%;
   width: 21vw;
   text-align: center;
   align-self: center;
   background-color: rgb(238, 238, 238);
+  border-radius: 1.5em;
+  overflow: hidden;
 }
 
 .card-image {
   width: 20vw;
   align-self: center;
+  border-radius: 0.75em;
 }
 
 .title-text, .title {
@@ -33,6 +36,7 @@
   align-self: center;
   justify-content: center;
   height: 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tech-list {
@@ -46,6 +50,14 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 40px;
+}
+
+.deployed-text:hover, .deployed-links:hover {
+  text-shadow: 
+  0 0 1px rgb(62, 62, 62),
+  0 0 2px rgb(162, 162, 162),
+  0 0 3px rgb(235, 235, 235)
+  ;
 }
 
 li {

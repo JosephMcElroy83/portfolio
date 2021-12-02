@@ -12,11 +12,15 @@
 .branding-img {
   height: 200px;
   width: 25vw;
+  border-radius: 2em;
+  border: 1px solid black;
 }
 
 .techstack-img {
   width: 20vw;
   height: 150px;
+  border-radius: 2em;
+  border: 1px solid black;
 }
 
 .branding {

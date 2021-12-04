@@ -1,0 +1,70 @@
+.contact-screen {
+  margin-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-self: center;
+}
+
+.profile-img {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.profile-img, .name {
+  align-self: center;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.clickable-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+  width: 40%;
+  padding: 10px 0;
+}
+
+.contact-imgs {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+.clickable-icons > :nth-child(2) {
+  border-radius: 2em;
+}
+
+.linkedin {
+  overflow: hidden;
+}
+
+.github, .linkedin {
+  background-color: whitesmoke;
+  border-radius: 2em;
+}
+
+.github:hover, .linkedin:hover {
+  box-shadow:
+      0 0 3px rgb(165, 165, 165),
+      0 0 10px rgb(130, 130, 130),
+      0 0 15px rgb(96, 96, 96),
+      0 0 24px rgb(72, 72, 72),
+      0 0 32px rgb(58, 58, 58),
+      0 0 43px rgb(38, 38, 38)
+}

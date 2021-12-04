@@ -12,11 +12,15 @@
 .branding-img {
   height: 200px;
   width: 25vw;
+  border-radius: 2em;
+  border: 1px solid black;
 }
 
 .techstack-img {
   width: 20vw;
   height: 150px;
+  border-radius: 2em;
+  border: 1px solid black;
 }
 
 .branding {
@@ -31,6 +35,7 @@
   background-color: rgb(240, 240, 240);
   color: black;
   padding: 10px;
+  border-radius: 2em;
 }
 
 .branding-header {
@@ -48,6 +53,7 @@
   background-color: whitesmoke;
   color: black;
   padding: 10px;
+  border-radius: 2em;
 }
 
 .tech-image-container {

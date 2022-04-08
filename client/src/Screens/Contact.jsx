@@ -8,7 +8,7 @@ export default function Contact() {
     <Layout>
       <div className="contact-screen">
         <div className="personal-info">
-          <img className="profile-img" src="https://media-exp1.licdn.com/dms/image/C4D03AQGgCZLjTS1Uxw/profile-displayphoto-shrink_400_400/0/1580943885737?e=1643846400&v=beta&t=K2g05pZJaLquq5ZCNhMTvT06ISm7cyDf2HtN9gqE3YY" alt="linkedin-profile-pic" />
+          <img className="profile-img" src="https://res.cloudinary.com/jm83/image/upload/v1649449493/its-me_tra9z3.jpg" alt="linkedin-profile-pic" />
           <h2 className="name">Joseph McElroy</h2>
         </div>
         <div className="contact-info">
